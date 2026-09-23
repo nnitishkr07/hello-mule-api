@@ -74,7 +74,9 @@
                         <businessGroupId>
                             ${anypoint.orgId}
                         </businessGroupId>
-
+                        <properties>
+						    <env>dev</env>
+						</properties>
                         <replicas>1</replicas>
 
                         <vCores>0.1</vCores>
